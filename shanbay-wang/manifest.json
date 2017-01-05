@@ -32,7 +32,7 @@
         {
             "matches": ["http://*/","https://*/","http://*/*","https://*/*","https://www.theguardian.com/politics/2015/may/28/david-cameron-sets-off-on-mission-to-win-over-european-leaders","https://www.baidu.com/"],
             "css": ["css/custom.css"],
-            "js": ["js/jquery-3.1.1.min.js","js/my_clock.js"]
+            "js": ["js/jquery-3.1.1.min.js","js/shanbaytask.js"]
         }
     ]
 }
