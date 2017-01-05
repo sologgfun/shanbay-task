@@ -17,7 +17,7 @@ task
 
 2. 分页
 
-3. 扇贝API查词，发音（发音功能有CHROME CSP内容安全策略的阻碍）使用了GIT上找到的插件作为background.js
+3. 扇贝API双击查词，发音（发音功能有CHROME CSP内容安全策略的阻碍）使用了GIT上找到的插件作为background.js
 
   "description": "Disable content-security-policy for web application testing"
   
