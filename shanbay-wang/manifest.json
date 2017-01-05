@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2,
+    "name": "Intern Extension",
+    "version": "1.0",
+    "description": "Wang Extension",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/",
+        "http://*/*",
+        "https://*/",
+        "https://*/*","tabs", "https://api.shanbay.com/*","http://api.shanbay.com/*","http://media.shanbay.com/audio/*/*"
+    ],
+    "icons": {
+        "16": "images/shell.png"
+        // "48": "images/icon48.png",
+        // "128": "images/icon128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/shell.png"
+            // "38": "images/icon38.png"
+        },
+        "default_title": "Intern task",
+        "default_popup": "popup.html"
+    },
+    "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+    "content_scripts": [
+        {
+            "matches": ["http://*/","https://*/","http://*/*","https://*/*","https://www.theguardian.com/politics/2015/may/28/david-cameron-sets-off-on-mission-to-win-over-european-leaders","https://www.baidu.com/"],
+            "css": ["css/custom.css"],
+            "js": ["js/jquery-3.1.1.min.js","js/my_clock.js"]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+/*全局CSS*/
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+.card{
+    display: none;
+    position: absolute;
+    font-weight: normal;
+    padding: 0.5em 0.6em;
+ /*   box-shadow: -1px -1px 1px rgba(10, 0, 5, 0.5), -1px 1px 1px rgba(10, 0, 5, 0.5), 1px 1px 1px rgba(10, 0, 5, 0.5), 1px -1px 1px rgba(10, 0, 5, 0.5);*/
+    background-color: rgba(25, 37, 51, 0.9);
+    border-width: 5px;
+    color: #ddd;
+}
