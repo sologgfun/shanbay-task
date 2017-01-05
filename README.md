@@ -32,5 +32,5 @@ task
 2. 第二个功能找到window和body的高度以后做数学运算然后分页。
 
 3. 第三个功能使用jquery的$.get()函数请求API查词，触发查词的是双击dbclick事件，获取选中单词的是window.getSelection().toString()，然后查词
- 发音的时候出现了问题，浏览器报错说不安全Content Security Policy (CSP)，然后我搞了一会没搞定，我就在网上下了个脚本作为background.js加载在后台 
+ 发音的时候出现了问题，浏览器报错说不安全Content Security Policy (CSP)，然后我搞了一会没搞定，我就在git上下了个脚本作为background.js加载在后台 
  完成了发音的调用（使用HTML5的新标签audio.play）。
